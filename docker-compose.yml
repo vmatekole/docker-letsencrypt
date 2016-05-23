@@ -1,4 +1,5 @@
-crond:
+letsencrypt:
   build: .
+  container_name: "letsencrypt"
   volumes:
     - /etc/nginx/certs:/etc/nginx/certs
