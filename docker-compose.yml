@@ -1,0 +1,4 @@
+crond:
+  build: .
+  volumes:
+    - /etc/nginx/certs:/etc/nginx/certs
