@@ -2,5 +2,5 @@ letsencrypt:
   build: .
   container_name: "letsencrypt"
   volumes:
-    - /etc/nginx/certs:/etc/nginx/certs
+    - /etc/letsencrypt/certs:/etc/nginx/certs
     - /apps/docker-letsencrypt/perodic:/etc/perodic
